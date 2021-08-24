@@ -1,3 +1,88 @@
-h1 {
-    color: re;
+body {
+  padding: 10px;
 }
+
+h1,
+h2 {
+    border-bottom: 1px solid rgb(221, 221, 221);
+    
+}
+
+h3 {
+    font-weight: bold;
+}
+
+section {
+    border: 1px solid black;
+    padding: 0px 20px 5px;
+    margin-bottom: 15px;
+}
+
+
+.colour-panel {
+    padding: 10px 50px;
+    display: inline-block;
+    width: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+.blue-panel {
+    background-color: blue;
+}
+
+.green-panel {
+    background-color: green;
+}
+
+.orange-panel {
+    background-color: orange;
+}
+
+.red-panel {
+    background-color: red;
+}
+
+/* Font Section */
+.overpass-style {
+    font-family: Overpass;
+}
+
+.Roboto-mono-style {
+    font-family: 'Roboto Mono';
+}
+
+.teko-style {
+    font-family: Teko;
+}
+
+.bold-font {
+    font-weight: bold;
+}
+
+.italic-font {
+    font-style: italic;
+}
+
+/* Text Styles */
+.text-styles-panel h1{
+  font-weight: 700;
+  font-size: 30px;
+  font-family: Teko;
+  border-bottom: 0px;
+}
+
+.text-styles-panel h2{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Roboto Mono';
+    border-bottom: 0px;
+  }
+
+  .text-styles-panel p{
+    font-size: 15px;
+    font-family: Overpass;
+  }
