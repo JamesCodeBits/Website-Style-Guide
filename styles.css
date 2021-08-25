@@ -5,7 +5,6 @@ body {
 h1,
 h2 {
     border-bottom: 1px solid rgb(221, 221, 221);
-    
 }
 
 h3 {
@@ -19,6 +18,7 @@ section {
 }
 
 
+/* Colour styles */
 .colour-panel {
     padding: 10px 50px;
     display: inline-block;
@@ -46,7 +46,7 @@ section {
     background-color: red;
 }
 
-/* Font Section */
+/* Font section */
 .overpass-style {
     font-family: Overpass;
 }
@@ -67,7 +67,7 @@ section {
     font-style: italic;
 }
 
-/* Text Styles */
+/* Text styles */
 .text-styles-panel h1{
   font-weight: 700;
   font-size: 30px;
